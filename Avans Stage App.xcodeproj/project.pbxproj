@@ -23,6 +23,8 @@
 		0C36AF1B172E705C00E45C9C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36AF1A172E705C00E45C9C /* SecondViewController.m */; };
 		0C36AF1D172E705C00E45C9C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C36AF1C172E705C00E45C9C /* second.png */; };
 		0C36AF1F172E705C00E45C9C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C36AF1E172E705C00E45C9C /* second@2x.png */; };
+		0C36AF26172E78ED00E45C9C /* logo Avans hogeschool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C36AF25172E78EC00E45C9C /* logo Avans hogeschool.jpg */; };
+		0C36AF2D172E7C9F00E45C9C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36AF2C172E7C9F00E45C9C /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +33,6 @@
 		0C36AEF9172E705C00E45C9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C36AEFB172E705C00E45C9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0C36AEFF172E705C00E45C9C /* Avans Stage App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Avans Stage App-Info.plist"; sourceTree = "<group>"; };
-		0C36AF01172E705C00E45C9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C36AF03172E705C00E45C9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C36AF05172E705C00E45C9C /* Avans Stage App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Avans Stage App-Prefix.pch"; sourceTree = "<group>"; };
 		0C36AF06172E705C00E45C9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		0C36AF09172E705C00E45C9C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0C36AF0B172E705C00E45C9C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0C36AF0D172E705C00E45C9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0C36AF10172E705C00E45C9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0C36AF12172E705C00E45C9C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		0C36AF13172E705C00E45C9C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		0C36AF15172E705C00E45C9C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
@@ -48,6 +48,11 @@
 		0C36AF1A172E705C00E45C9C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0C36AF1C172E705C00E45C9C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		0C36AF1E172E705C00E45C9C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		0C36AF25172E78EC00E45C9C /* logo Avans hogeschool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo Avans hogeschool.jpg"; sourceTree = "<group>"; };
+		0C36AF28172E79AE00E45C9C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C36AF2A172E7AAE00E45C9C /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = nl; path = nl.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0C36AF2B172E7C9F00E45C9C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0C36AF2C172E7C9F00E45C9C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +99,12 @@
 		0C36AEFD172E705C00E45C9C /* Avans Stage App */ = {
 			isa = PBXGroup;
 			children = (
+				0C36AF25172E78EC00E45C9C /* logo Avans hogeschool.jpg */,
 				0C36AF06172E705C00E45C9C /* AppDelegate.h */,
 				0C36AF07172E705C00E45C9C /* AppDelegate.m */,
 				0C36AF0F172E705C00E45C9C /* MainStoryboard.storyboard */,
+				0C36AF2B172E7C9F00E45C9C /* LoginViewController.h */,
+				0C36AF2C172E7C9F00E45C9C /* LoginViewController.m */,
 				0C36AF12172E705C00E45C9C /* FirstViewController.h */,
 				0C36AF13172E705C00E45C9C /* FirstViewController.m */,
 				0C36AF15172E705C00E45C9C /* first.png */,
@@ -159,6 +167,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				nl,
+				Base,
 			);
 			mainGroup = 0C36AEEB172E705C00E45C9C;
 			productRefGroup = 0C36AEF5172E705C00E45C9C /* Products */;
@@ -184,6 +194,7 @@
 				0C36AF18172E705C00E45C9C /* first@2x.png in Resources */,
 				0C36AF1D172E705C00E45C9C /* second.png in Resources */,
 				0C36AF1F172E705C00E45C9C /* second@2x.png in Resources */,
+				0C36AF26172E78ED00E45C9C /* logo Avans hogeschool.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +209,7 @@
 				0C36AF08172E705C00E45C9C /* AppDelegate.m in Sources */,
 				0C36AF14172E705C00E45C9C /* FirstViewController.m in Sources */,
 				0C36AF1B172E705C00E45C9C /* SecondViewController.m in Sources */,
+				0C36AF2D172E7C9F00E45C9C /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +219,7 @@
 		0C36AF00172E705C00E45C9C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C36AF01172E705C00E45C9C /* en */,
+				0C36AF28172E79AE00E45C9C /* nl */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -215,7 +227,7 @@
 		0C36AF0F172E705C00E45C9C /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C36AF10172E705C00E45C9C /* en */,
+				0C36AF2A172E7AAE00E45C9C /* nl */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
